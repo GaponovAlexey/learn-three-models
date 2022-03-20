@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Manin from '../Components/Manin'
+import Mein from '../Components/Mein'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Three</title>
         <link rel='icon' href='#!' />
       </Head>
-      <Manin />
+      <Mein />
     </div>
   )
 }
