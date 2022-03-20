@@ -5,13 +5,13 @@ import Model from './model/Danse'
 const Main = () => {
   return (
     <div>
-      <Suspense fallback={null}>
-        <Canvas>
-          <ambientLight />
-          <pointLight position={[10, 10, 10]} />
+      <Canvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Suspense fallback={null}>
           <Model />
-        </Canvas>
-      </Suspense>
+        </Suspense>
+      </Canvas>
     </div>
   )
 }
